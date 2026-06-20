@@ -136,13 +136,11 @@ mat-icon {
 .custom-snackbar-icon-success {
   @include mat.icon-overrides((
     color: var(--color-success)
-    color: var(--color-success)
   ));
 }
 
 .custom-snackbar-icon-error {
   @include mat.icon-overrides((
-    color: var(--color-danger)
     color: var(--color-danger)
   ));
   font-size: 32px;
@@ -150,7 +148,6 @@ mat-icon {
 
 .custom-snackbar-icon-warning {
   @include mat.icon-overrides((
-    color: var(--color-warning)
     color: var(--color-warning)
   ));
 }
